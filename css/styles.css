@@ -1,5 +1,6 @@
 body {
 	font-size:16px;
+	background-image: "img/bkground.jpg";
 }
 
 .main_header{
@@ -11,28 +12,33 @@ body {
 	box-shadow: 47px 33px 46px 0px rgba(0,0,0,1);*/
 }
 
-.box,.button{
+.profile_boxes,.profile_names{
 	margin-left:350px;	
 }
-.box1,.box2,.box3{
+.profile_box1,.profile_box2,.profile_box3{
 	height:150px;
 	width:150px;
 	border:10px double blue;
-	margin-right:30px;
+	margin-left:30px;
 	padding:20px;
 	background-color:black;
 	color:blue;
 	display:inline-block;
 }
 
-.button1,.button2,.button3{
+.profile_name1,.profile_name2,.profile_name3{
 	height:50px;
 	width:150px;
 	border:10px double blue;
-	margin-right:30px;
+	margin-left:30px;
+	margin-top:30px;
 	padding:20px;
 	background-color:black;
 	display:inline-block;
 	color:blue;
 
+}
+.profile_pics{
+	width:150px;
+	height:150px;
 }
