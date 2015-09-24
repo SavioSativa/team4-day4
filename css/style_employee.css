@@ -7,9 +7,6 @@ body, html{
 	background: blue;
 	text-align: center;
 }
-h2{
-	
-}
 img{
 	border:2px solid #DDD;
 	float: left;
@@ -22,10 +19,47 @@ img{
 	clear: both;
 	float: right;
 }
-.media-body p{
+h2, h4{
+	display: block;
+	margin: 0;
+}
+h2{
+	padding-bottom: 5px;
+}
+h4{
+	font-size: 20px;
 }
 h5{
 	display: inline-block;
 	float: left;	
 	margin: 0;
+	font-size: 18px;
+	padding-right: 5px;
+}
+.bio{
+	
+	clear: both;
+}
+h5, p{
+	vertical-align: middle;
+}
+p{
+	padding-top: 3px;
+}
+a{
+	text-decoration: none;
+}
+.button{
+	background: gray;
+	padding: 5px 15px;
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+}
+.button:hover{
+	background: blue;
+	padding: 5px 15px;
+	border-radius: 15px;
+	text-decoration: none;
+	color: yellow;	
 }
