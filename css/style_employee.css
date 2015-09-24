@@ -1,3 +1,31 @@
 body, html{
 	background: #c0c0c0;
 }
+.header{
+	display: block;
+	color: white;
+	background: blue;
+	text-align: center;
+}
+h2{
+	
+}
+img{
+	border:2px solid #DDD;
+	float: left;
+}
+.media-body{
+	float: right;
+	width: 60%;
+}
+.button{
+	clear: both;
+	float: right;
+}
+.media-body p{
+}
+h5{
+	display: inline-block;
+	float: left;	
+	margin: 0;
+}
