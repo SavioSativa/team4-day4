@@ -1,14 +1,14 @@
 body {
-	font-size:16px;
+	font-size:20px;
+	background:#2c3e50;
+	font-family: 'Roboto', sans-serif; 
 }
 
 .main_header{
-	font-size:20px;
+	display: block;
 	text-align:center;
-	background-color:blue;
-/*	-webkit-box-shadow: 47px 33px 46px 0px rgba(0,0,0,1);
-	-moz-box-shadow: 47px 33px 46px 0px rgba(0,0,0,1);
-	box-shadow: 47px 33px 46px 0px rgba(0,0,0,1);*/
+	color:#6c7a89;
+	background-color:#f2f1ef;
 }
 
 .profile_boxes,.profile_names{
@@ -17,24 +17,34 @@ body {
 .profile_box1,.profile_box2,.profile_box3{
 	height:150px;
 	width:150px;
-	border:10px double blue;
+	border:10px double #4183d7;
 	margin-left:30px;
 	padding:20px;
-	background-color:black;
+	background-color:#f2f1ef;
 	color:blue;
 	display:inline-block;
+
+	/*generated shadow*/
+	-webkit-box-shadow: 18px 19px 35px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 18px 19px 35px 0px rgba(0,0,0,0.75);
+	box-shadow: 18px 19px 35px 0px rgba(0,0,0,0.75);
 }
 
 .profile_name1,.profile_name2,.profile_name3{
 	height:50px;
 	width:150px;
-	border:10px double blue;
+	border:10px double #4183d7;
 	margin-left:30px;
 	margin-top:30px;
 	padding:20px;
-	background-color:black;
+	background-color:#f2f1ef;
 	display:inline-block;
 	color:blue;
+	
+	/*generated shadow*/
+	-webkit-box-shadow: 18px 19px 35px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 18px 19px 35px 0px rgba(0,0,0,0.75);
+	box-shadow: 18px 19px 35px 0px rgba(0,0,0,0.75);
 
 }
 .profile_pics{
