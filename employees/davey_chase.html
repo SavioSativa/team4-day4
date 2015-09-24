@@ -2,46 +2,46 @@
 
 <html lang="en">
     <head>
-        <!-- Load Bootstrap -->
-        <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> -->
+        <link rel="stylesheet" type="text/css" href="../css/normalize.css">
         <link rel="stylesheet" type="text/css" href="../css/style_employee.css">
     </head>
 
     <body>
         <div style="padding:50px;"class="container">
-            <!-- Header -->
+            
+            <!-- header  -->
             <div class="header">
                 <h1>Employee Directory</h1>
             </div>
-            <!-- Employee Name -->
-            <h2>Davey Chase</h2>
-
+            
             <div class="media">
                 <div class="media-left">
-                    <img class="img-circle" style="border:2px solid #DDD;width:100px;display:inline;" src="../img/davey_chase.jpg" />
+                    <img class="img-circle" src="../img/davey_chase.jpg"/>
                 </div>
                 <div class="media-body">
+                    <!-- Employee Name -->
+                    <h2>Davey Chase</h2>
+
                     <!-- Employee Position -->
                     <h4 class="media-heading">Senior Manager</h4>
                     <div>
                         <!-- Employee Bio -->
-                        <h5>Age</h5>
+                        <h5>Age:</h5>
+                        <p>67</p>
+                       
+                        <h5>Email:</h5>
                         <p>
-                            67
+                            <a href="mailto:dchase@branstation.io">dchase@branstation.io</a>
                         </p>
-                        <h5>Email</h5>
-                        <p>
-                            dchase@branstation.io
-                        </p>
-                        <h5>Bio</h5>
-                        <p>
+                        <h5>Bio:</h5>
+                        <p class="bio">
                             Cheesemaker, Manager, Designer, Father of 6. I enjoy square dancing. 
                         </p>
                     </div>
-            <!-- Back to index.html -->
-            <a href="../index.html" class="btn btn-info">back</a>
                 </div>
             </div>
+            <!-- Back to index.html -->
+            <a href="../index.html" class="button">back</a>
         </div>
     </body>
 </html>
