@@ -1,6 +1,6 @@
 body {
 	font-size:20px;
-	background:#2c3e50;
+	/*background:#2c3e50;*/
 	font-family: 'Roboto', sans-serif; 
 }
 
@@ -18,7 +18,7 @@ body {
 .profile_box1,.profile_box2,.profile_box3{
 	height:150px;
 	width:150px;
-	border:10px double #4183d7;
+	border: 5px solid #d3d3d3;
 	margin:0px auto;
 	padding:20px;
 	background-color:#f2f1ef;
@@ -26,26 +26,27 @@ body {
 	display:inline-block;
 
 	/*generated shadow*/
-	-webkit-box-shadow: 18px 19px 35px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 18px 19px 35px 0px rgba(0,0,0,0.75);
-	box-shadow: 18px 19px 35px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 18px 19px 35px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 18px 19px 35px 0px rgba(0,0,0,0.2);
+	box-shadow: 18px 19px 35px 0px rgba(0,0,0,0.2);
 }
 
 .profile_name1,.profile_name2,.profile_name3{
 	height:20px;
 	width:150px;
-	border:10px double #4183d7;
+	border:5px solid #d3d3d3;
 	margin:30px auto;
 	margin-left:30px;
 	background-color:#f2f1ef;
 	display:inline-block;
 	color:blue;
 	text-align: center;
+	padding: 5px;
 
 	/*generated shadow*/
-	-webkit-box-shadow: 18px 19px 35px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 18px 19px 35px 0px rgba(0,0,0,0.75);
-	box-shadow: 18px 19px 35px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 18px 19px 35px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 18px 19px 35px 0px rgba(0,0,0,0.2);
+	box-shadow: 18px 19px 35px 0px rgba(0,0,0,0.2);
 
 }
 

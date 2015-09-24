@@ -15,7 +15,7 @@ img{
 img {
 	height:150px;
 	width:150px;
-	border:10px double #4183d7;
+	border:5px solid #d3d3d3;
 	margin:0px auto;
 	padding:20px;
 	background-color:#f2f1ef;
@@ -24,9 +24,9 @@ img {
 	float: left;
 
 	/*generated shadow*/
-	-webkit-box-shadow: 18px 19px 35px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 18px 19px 35px 0px rgba(0,0,0,0.75);
-	box-shadow: 18px 19px 35px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 18px 19px 35px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 18px 19px 35px 0px rgba(0,0,0,0.2);
+	box-shadow: 18px 19px 35px 0px rgba(0,0,0,0.2);
 }
 
 /*.media-body{
@@ -35,15 +35,16 @@ img {
 }*/
 
 .media-body {
-	border:10px double #4183d7;
+	border:5px solid #d3d3d3;
 	background-color:#f2f1ef;
 	display:inline-block;
 	color:blue;
+	padding: 5px;
 
 	/*generated shadow*/
-	-webkit-box-shadow: 18px 19px 35px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 18px 19px 35px 0px rgba(0,0,0,0.75);
-	box-shadow: 18px 19px 35px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 18px 19px 35px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 18px 19px 35px 0px rgba(0,0,0,0.2);
+	box-shadow: 18px 19px 35px 0px rgba(0,0,0,0.2);
 }
 .button{
 	clear: both;
