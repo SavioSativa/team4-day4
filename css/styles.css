@@ -11,15 +11,28 @@ body {
 	box-shadow: 47px 33px 46px 0px rgba(0,0,0,1);*/
 }
 
-.box{
+.box,.button{
 	margin-left:350px;	
 }
 .box1,.box2,.box3{
 	height:150px;
 	width:150px;
-	border:10px double black;
+	border:10px double blue;
 	margin-right:30px;
-	background-color:white;
+	padding:20px;
+	background-color:black;
 	color:blue;
 	display:inline-block;
+}
+
+.button1,.button2,.button3{
+	height:50px;
+	width:150px;
+	border:10px double blue;
+	margin-right:30px;
+	padding:20px;
+	background-color:black;
+	display:inline-block;
+	color:blue;
+
 }
