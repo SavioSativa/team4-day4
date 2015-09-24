@@ -9,6 +9,7 @@ body {
 	text-align:center;
 	color:#6c7a89;
 	background-color:#f2f1ef;
+	text-transform: uppercase;
 }
 
 .profile_boxes,.profile_names{
@@ -18,7 +19,7 @@ body {
 	height:150px;
 	width:150px;
 	border:10px double #4183d7;
-	margin-left:30px;
+	margin:0px auto;
 	padding:20px;
 	background-color:#f2f1ef;
 	color:blue;
@@ -31,23 +32,34 @@ body {
 }
 
 .profile_name1,.profile_name2,.profile_name3{
-	height:50px;
+	height:20px;
 	width:150px;
 	border:10px double #4183d7;
+	margin:30px auto;
 	margin-left:30px;
-	margin-top:30px;
-	padding:20px;
 	background-color:#f2f1ef;
 	display:inline-block;
 	color:blue;
-	
+	text-align: center;
+
 	/*generated shadow*/
 	-webkit-box-shadow: 18px 19px 35px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 18px 19px 35px 0px rgba(0,0,0,0.75);
 	box-shadow: 18px 19px 35px 0px rgba(0,0,0,0.75);
 
 }
+
+.profile_name1:hover,.profile_name2:hover,.profile_name3:hover{
+	background-color:#4183d7;
+	color:#f2f1ef;
+}
 .profile_pics{
 	width:150px;
 	height:150px;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color:#f2f1ef;
 }
